@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Income Expenditure</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container {
+            font-size: 2em;
+            border-right: 2px solid black;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typing 5s steps(28, end) forwards, blink 0.7s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 28ch }
+        }
+
+        @keyframes blink {
+            from, to { border-color: transparent }
+            50% { border-color: black }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Welcome Income Expenditure</div>
+</body>
+</html>
